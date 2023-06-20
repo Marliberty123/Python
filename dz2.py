@@ -5,7 +5,7 @@
 
 S = int(input("Vvedite kol-vo juravlikov: "))
 #a + a + 2*(a + a) = S
-a = S/6
+a = S//6
 b= S-(a+a)
 print (f"Petya i Serezha sdelali po {a} juravliku")
 print(f"Katya sdelala {b} juravlikov")
